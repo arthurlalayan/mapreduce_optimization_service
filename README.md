@@ -8,7 +8,7 @@
 |Service Name | Method |  URL | Description |
 |:----------:|:---:|--|:----------------------------------
 |[Prediction Service](#prediction-service-example-)| POST | `/predict/{application_name}`|  The MapReduce _application name_ and _configuration parameters_ are passed as input parameters, and as a result, the service provides the application _execution time_ with the specified parameters.
-|[Recommendation Service](#recommendation-service-example-)| POST | `/recommend/{application_name}/{top_n}`|The name of the MapReduce _application_, _possible configurations_, and numeric _top-n_ parameters are passed as input parameters, and as a result, the service provides the _top-n best configurations_ with their _execution time_ (if top-n = 0 show all ).
+|[Recommendation Service](#recommendation-service-example-)| POST | `/recommend/{application_name}/{top_n}`|The name of the MapReduce _application_, _possible configurations_, and numeric _top_n_ parameters are passed as input parameters, and as a result, the service provides the _top_n best configurations_ with their _execution time_ (if top_n = 0 show all ).
 
 Service supports the following applications. <br/>
 
